@@ -1,8 +1,10 @@
-#include"main.h"                                                                                                                       /** main - prints voucher                                                                                                               
+#include "main.h"
+
+/**
+* main - prints voucher   
 * Return: always 0                                                                                                                   
 */                                                                                                                                     
-int main(void)                                                                                                                          
-{                                                                                                                                       
+int main(void)                                                                                                                          {                                                                                                                                       
 _putchar('_');                                                                                                                          
 _putchar('p');                                                                                                                          
 _putchar('u');                                                                                                                          
