@@ -1,42 +1,15 @@
-nclude <stdio.h>
+#ifndef MAIN_H
 
-/**
- * main - causes an infinite loop
- * Return: 0
- */
-
-int main(void)
-
-{
-
-	int i;
+#define MAIN_H
 
 
 
-	printf("Infinite loop incoming :(\n");
+#include <stdio.h>
 
 
 
-	i = 0;
+void positive_or_negative(int i);
 
 
 
-	/*
-	 *
-	 * *while (i < 10)
-	 *
-	 * *{
-	 *
-	 * *Infinite loop - No increase of variable
-	 *
-	 * *putchar(i);
-	 *
-	 * }
-	 *
-	 * */
-
-	printf("Infinite loop avoided! \\o/\n");
-
-	return (0);
-
-}
+#endif /* MAIN_H */
